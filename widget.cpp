@@ -258,9 +258,9 @@ void Widget::on_pushButton_locate_clicked()
 //
 void Widget::keyPressEvent(QKeyEvent* event)
 {
-    if ( event->key() == Qt::Key_Right ){ this->on_pushButton_next_clicked(); }
-    if ( event->key() == Qt::Key_Left  ){ this->on_pushButton_last_clicked(); }
-    if ( event->key() == Qt::Key_Space ){ this->on_pushButton_switch_clicked(); }
-//    if ( event->key() == Qt::Key_Up ){ this->on_pushButton_next_clicked(); }
-//    if ( event->key() == Qt::Key_Down ){ this->on_pushButton_next_clicked(); }
+    if ( event->key() == Qt::Key_Right ){ this->on_pushButton_next_clicked();  }
+    if ( event->key() == Qt::Key_Left  ){ this->on_pushButton_last_clicked();  }
+    if ( event->key() == Qt::Key_Space ){ this->on_pushButton_switch_clicked();}
+    if ( event->key() == Qt::Key_Up    ){ ui->soundSlider->setValue( ui->soundSlider->value() + 1 );  }
+    if ( event->key() == Qt::Key_Down  ){ ui->soundSlider->setValue( ui->soundSlider->value() - 1 );  }
 }
