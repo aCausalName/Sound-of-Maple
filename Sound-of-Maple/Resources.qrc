@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/replace.png</file>
+        <file>Resources/MapleLeaf.png</file>
+        <file>Resources/folder.png</file>
+        <file>Resources/last.png</file>
+        <file>Resources/next.png</file>
+        <file>Resources/pause.png</file>
+        <file>Resources/sound-0.png</file>
+        <file>Resources/sound-1.jpg</file>
+        <file>Resources/sound-2.png</file>
+        <file>Resources/sound-3.png</file>
+        <file>Resources/comment.png</file>
+        <file>Resources/play.png</file>
+        <file>Resources/random.png</file>
+        <file>Resources/listCirculate.png</file>
+        <file>Resources/single.png</file>
+        <file>Resources/locate.png</file>
+    </qresource>
+</RCC>
